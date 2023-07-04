@@ -527,9 +527,58 @@ grid-template-columns: 18% 18%  18% 18% 18% ;
     font-size: 70px;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: #ff8a8a;
-    border-bottom: 2px solid #000000;
     
  }
  /* test */
+
+
+
+ /* martin */
+ .martin{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: space-around;
+ }
+ .jessica{
+border-top: 3px solid black;
+    padding:70px 0;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .jessica-img{
+    display: flex;
+    
+ }
+ .jessica-img img{
+    height: 77px;
+    border-radius: 50%;
+    margin-right: 15px;
+ }
+ .jessica-id{
+    line-height: 34px;
+    
+ }
+ .jessica-id h1{
+font-size: 25px;
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+font-weight: 500;
+
+
+ }
+ .jessica-id p{
+    text-align: left;
+    color: #666666;
+    font-size: 18px;
+    padding-left: 5px;
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+ }
+ .twiter{
+    padding-left: 60px;
+    font-size: 45px;
+    color: rgb(142, 142, 239);
+ }
+ /* martin */
 
 
