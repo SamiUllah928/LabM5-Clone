@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.header{
+    height: 75px;
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.contant ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.contant ul li{
+    padding: 0 21px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup{
+    text-align: center;
+}
+.signup button{
+
+  border-radius: 8px;
+
+  font-size: 18px;
+  background-color: darkblue;
+    color: cornsilk;
+    cursor: pointer;
+font-weight: bold;
+padding: 6px;
+
+
+}
+.signup button:hover{
+    box-shadow: 0 0 10px 5px grey;
+    font-weight: 500;
+}
+.image{
+    height:100vh;
+    width: 100%;
+    background-image: url('./whatisacomputer_pc.jpg');
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.material{
+    margin-bottom: 20px; 
+}
+.material h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.material h6{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 7px;
+    margin-top: 12px;
+    /* margin-left: 25px; */
+}
+.btn button{
+    background-color: none;
+    font-size: large;
+    height: 30px;
+    width: 100px;
+    background: none;
+border-radius: 4px;
+cursor: pointer;
+color: brown;
+font-weight: 700;
+}
+.btn button:hover{
+    box-shadow: 0px 5px 5x solid pink;
+    width: 150px;
+}
+.material{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sami{
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 0 20px;
+}
+.sami h1{
+    border: 1px solid black;
+}
+i{color: black;
+
+}
