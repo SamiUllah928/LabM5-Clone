@@ -579,6 +579,104 @@ font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     font-size: 45px;
     color: rgb(142, 142, 239);
  }
+ .elit{
+    text-align: left;
+    line-height: 33px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+ }
+ .elit h3{
+    font-size: larger;
+    font-weight: 600;
+    word-spacing: 8px;
+    color: #2e2c2c;
+
+ }
  /* martin */
+
+
+ /* folow-us */
+.folow h1{
+    margin-top: 10%;
+text-align: center;
+font-size: 45px;
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+font-weight: 400;
+}
+ /* folow-us */
+
+
+ /* photoes */
+ .photoes{
+    display:flex;
+    gap: 30px;
+    /* justify-content: space-around; */
+    padding: 40px;
+    justify-content: center;
+
+ }
+ .photo1 img{
+width: 260PX;
+height: 300PX
+ }
+ /* photoes */
+
+
+ /* end down */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    border-bottom: 2px solid black;
+
+}
+.happy{
+    height: 80px;
+    padding: 15px;
+}
+.happy i{
+    padding: 17px 0 0 17px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ff8a8a;
+}
+.happy h1 {
+    font-size:40px;
+}
+.happy p{
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+ /* end down */
+
+ /* copy-right */
+ .copy-right{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+ }
+ .all-left{
+    display: flex;
+    justify-content: space-between;
+    gap: 27px;
+    margin-left: 30%;
+ }
+ .all-left i{
+    font-size: x-large;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+ }
+ .all-left i:hover{
+    color: #ff8a8a;
+    padding: 3px 0;
+ }
+ /* copy-right */
 
 
