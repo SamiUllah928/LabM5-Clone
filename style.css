@@ -491,8 +491,6 @@ font-weight: 500;
     line-height: 28px;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 
-
-   
  }
  .clientout h6{
     font-size: 17px;
@@ -583,8 +581,6 @@ font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     text-align: left;
     line-height: 33px;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-
-
  }
  .elit h3{
     font-size: larger;
@@ -610,17 +606,26 @@ font-weight: 400;
 
  /* photoes */
  .photoes{
-    display:flex;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
     gap: 30px;
     /* justify-content: space-around; */
     padding: 40px;
     justify-content: center;
 
+
+ }
+ .photo1{
+    display: flex;
+    justify-content: center;
+overflow: hidden;
+
+
  }
  .photo1 img{
-width: 260PX;
-height: 300PX
+    width: 150%;
  }
+
  /* photoes */
 
 
